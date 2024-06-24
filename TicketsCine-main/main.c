@@ -1,32 +1,32 @@
 #include <stdio.h>
 #include "funciones.h"
 
-void main () {
+void main() {
     char peliculas[10][4][40] = {
         {"1", "Avatar", "10:20", "Fantasia"},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""},
-        {"", "", "", ""}
+        {"2", "Inception", "12:00", "Sci-Fi"},
+        {"3", "Titanic", "15:00", "Drama"},
+        {"4", "Interstellar", "18:00", "Sci-Fi"},
+        {"5", "Matrix", "20:00", "Sci-Fi"},
+        {"6", "The Godfather", "14:00", "Crime"},
+        {"7", "Pulp Fiction", "16:30", "Crime"},
+        {"8", "The Dark Knight", "19:00", "Action"},
+        {"9", "Forrest Gump", "21:00", "Drama"},
+        {"10", "Gladiator", "23:00", "Action"}
     };
     
-    double precio[3] = {7, 3.5, 3};
+    double precio[3] = {7, 3.5, 3}; // Assuming [0]: full price, [1]: discount, [2]: child
     
     char clientes[5][2][40] = {
         {"", ""},
         {"Luis", "123456788"},
-        {"", ""},
+        {"Maria", "87654321"},
         {"", ""},
         {"", ""}
     };
 
     int reserva[10][4] = {
-        {0, 1, 2, 1},
+        {-1, -1, -1, -1},
         {-1, -1, -1, -1},
         {-1, -1, -1, -1},
         {-1, -1, -1, -1},
