@@ -15,7 +15,7 @@ void main() {
         {"10", "Gladiator", "23:00", "Action"}
     };
     
-    double precio[3] = {7, 3.5, 3}; // Assuming [0]: full price, [1]: discount, [2]: child
+    double precio[3] = {7, 3.5, 3}; 
     
     char clientes[5][2][40] = {
         {"", ""},
